@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-describe "the sign up a user path" do
-  it "creates a user" do
+describe "the sign in a user path" do
+  it "signs in a user" do
     user = FactoryGirl.create(:user)
     visit '/'
     click_link 'Sign in'

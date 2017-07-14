@@ -12,7 +12,7 @@ FactoryGirl.define do
     description('Delicious')
     price('5.50')
     id 5
-    avatar File.new(Rails.root + 'spec/support/missing.png')
+    image File.new(Rails.root + 'spec/support/missing.png')
   end
 
   factory :order do
