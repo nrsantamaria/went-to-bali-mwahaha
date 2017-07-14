@@ -15,3 +15,13 @@
  */
 
 @import "materialize";
+
+.col.s4 {
+  height: 300px !important;
+  width: 250px !important;
+  position: relative;
+  .order-form {
+    position: absolute !important;
+    bottom: 0 !important;
+  }
+}
