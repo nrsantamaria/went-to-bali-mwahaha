@@ -1,12 +1,20 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/nickys/Desktop/went-to-bali-mwahaha/spec/models/order_item_spec.rb": [
+      "/Users/nickys/Desktop/went-to-bali-mwahaha/spec/features/create_user_spec.rb": [
         1,
         null,
         1,
-        2,
-        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/nickys/Desktop/went-to-bali-mwahaha/spec/rails_helper.rb": [
@@ -293,15 +301,15 @@
         1,
         null,
         1,
-        0,
+        6,
         null,
         null,
         1,
-        0,
+        1,
         null,
         null,
         1,
-        0,
+        5,
         null,
         null,
         1,
@@ -316,7 +324,7 @@
       "/Users/nickys/Desktop/went-to-bali-mwahaha/app/helpers/cart_helper.rb": [
         1,
         1,
-        0,
+        3,
         null,
         null
       ],
@@ -389,9 +397,9 @@
         1,
         null,
         1,
-        0,
-        0,
-        0,
+        2,
+        2,
+        2,
         null,
         null,
         1,
@@ -468,15 +476,15 @@
         1,
         null,
         1,
-        0,
+        1,
         null,
         null,
         1,
-        0,
-        0,
-        0,
-        0,
-        0,
+        1,
+        1,
+        1,
+        1,
+        1,
         null,
         0,
         0,
@@ -486,7 +494,7 @@
         1,
         null,
         1,
-        0,
+        1,
         null,
         null,
         null
@@ -551,6 +559,33 @@
       ],
       "/Users/nickys/Desktop/went-to-bali-mwahaha/spec/factories.rb": [
         1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
         null,
         null
       ],
@@ -577,6 +612,14 @@
       "/Users/nickys/Desktop/went-to-bali-mwahaha/spec/support/factory_girl.rb": [
         1,
         1,
+        null
+      ],
+      "/Users/nickys/Desktop/went-to-bali-mwahaha/spec/models/order_item_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
         null
       ],
       "/Users/nickys/Desktop/went-to-bali-mwahaha/spec/models/order_spec.rb": [
@@ -609,6 +652,6 @@
         null
       ]
     },
-    "timestamp": 1500072679
+    "timestamp": 1500075045
   }
 }
