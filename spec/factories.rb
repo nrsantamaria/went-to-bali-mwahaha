@@ -2,7 +2,7 @@ FactoryGirl.define do
   factory :user do
     name('Admin')
     email('admin1@email.com')
-    password_digest('123456')
+    password('123456')
     admin true
     id 5
   end
