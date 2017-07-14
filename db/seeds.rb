@@ -7,7 +7,7 @@ class Seed
 
   def generate_products
     20.times do |i|
-      Product.create!(name: Faker::Beer.name, description: Faker::Beer.style, price: rand(10...100), image: File.new('app/assets/images/beer-icon.png'))
+      Product.create!(name: Faker::Beer.name, description: (Faker::Beer.style + " | " + Faker::Beer.alcohol), price: rand(5...20), image: File.new('app/assets/images/beer-icon.png'))
     end
   end
 end
