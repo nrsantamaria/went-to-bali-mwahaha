@@ -14,14 +14,14 @@
       <img src="./assets/0.10.1/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2017-07-14T15:48:59-07:00">2017-07-14T15:48:59-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2017-07-14T15:51:19-07:00">2017-07-14T15:51:19-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="red">67.23%</span></span>
+    (<span class="covered_percent"><span class="red">67.37%</span></span>
      covered at
      <span class="covered_strength">
        <span class="red">
@@ -32,8 +32,8 @@
   <a name="AllFiles"></a>
   <div>
     <b>39</b> files in total.
-    <b>235</b> relevant lines. 
-    <span class="green"><b>158</b> lines covered</span> and
+    <b>236</b> relevant lines. 
+    <span class="green"><b>159</b> lines covered</span> and
     <span class="red"><b>77</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -413,11 +413,11 @@
       <tr>
         <td class="strong"><a href="#ba3ffae35254476ad7610eee8e146078b71005b9" class="src_link" title="spec/models/user_spec.rb">spec/models/user_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>6</td>
-        <td>4</td>
-        <td>4</td>
+        <td>7</td>
+        <td>5</td>
+        <td>5</td>
         <td>0</td>
-        <td>1.5</td>
+        <td>1.6</td>
       </tr>
       
       <tr>
@@ -3869,8 +3869,8 @@
     <h3>spec/models/user_spec.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>4</b> relevant lines. 
-      <span class="green"><b>4</b> lines covered</span> and
+      <b>5</b> relevant lines. 
+      <span class="green"><b>5</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -3899,16 +3899,22 @@
         <li class="covered" data-hits="2" data-linenumber="4">
           <span class="hits">2</span>
           
-          <code class="ruby">  it { should validate_presence_of :email }</code>
+          <code class="ruby">  it { should have_many :orders }</code>
         </li>
       
         <li class="covered" data-hits="2" data-linenumber="5">
           <span class="hits">2</span>
           
+          <code class="ruby">  it { should validate_presence_of :email }</code>
+        </li>
+      
+        <li class="covered" data-hits="2" data-linenumber="6">
+          <span class="hits">2</span>
+          
           <code class="ruby">  it { should validate_uniqueness_of(:email) }</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="6">
+        <li class="never" data-hits="" data-linenumber="7">
           
           
           <code class="ruby">end</code>
