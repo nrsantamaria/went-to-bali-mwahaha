@@ -17,10 +17,22 @@
 @import "materialize";
 
 .col.s4 {
-  height: 300px !important;
+  height: 325px !important;
   position: relative;
+  padding-top: 25px;
   .order-form {
     position: absolute !important;
     bottom: 0 !important;
   }
+  h5 {
+    text-align: center;
+  }
+}
+
+#product-image {
+  float: right;
+}
+
+.center-align {
+  text-align: center;
 }

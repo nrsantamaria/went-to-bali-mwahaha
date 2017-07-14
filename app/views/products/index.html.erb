@@ -3,10 +3,11 @@
 <div class="row">
   <% @products.each do |product| %>
     <div class="col s4">
-      <h4><%= product.name %></h4>
-      <p><%= product.description %></p>
-      <p><%= number_to_currency product.price %></p>
-      <div class="order-form">
+      <h5><%= link_to product.name, product_path(product), id: 'product-name', remote: true %></h5>
+      <div id="product-detail">
+        
+      </div>
+      <div class="order-form center-align">
         <%= form_for @order_item, remote: true do |f| %>
         <%= f.hidden_field :product_id, value: product.id %>
         <%= f.number_field :quantity, placeholder: "0", min: 1, :required => true %>
