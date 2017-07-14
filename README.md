@@ -14,6 +14,7 @@ An app with a list of products that can be added to a shopping cart.
 4. Add Paperclip for product image upload.
 5. Add product validations.
 6. Fix the row height for products, which can quickly become uneven.
+7. Add admin flash messages for adding, updating and deleting products.
 
 ## Technologies used / Prerequisites
 

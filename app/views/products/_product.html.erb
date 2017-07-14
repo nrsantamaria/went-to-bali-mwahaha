@@ -1,6 +1,11 @@
-<div class="card-panel">  
+<div class="card-panel">
   <%= image_tag(product.image, id: "product-image")%>
   <h5><%= product.name %></h5>
   <p><%= product.description %></p>
   <p><%= number_to_currency product.price %></p>
+  <% if admin %>
+    <%= link_to "Delete Product", product_path(product),
+              :data => {:confirm => "Are you sure?",
+              :method => "delete"} %>
+    <% end %>
 </div>

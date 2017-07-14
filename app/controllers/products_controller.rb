@@ -25,6 +25,17 @@ class ProductsController < ApplicationController
     end
   end
 
+  def destroy
+    @product = Product.find(params[:id])
+    if @product.destroy
+      flash[:notice] = "That product has been deleted."
+      respond_to do |format|
+        format.html { redirect_to '/' }
+        format.js
+      end
+    end
+  end
+
   private
   def product_params
     params.require(:product).permit(:name, :description, :price, :image)
