@@ -25,14 +25,23 @@ class ProductsController < ApplicationController
     end
   end
 
+  def edit
+    @product = Product.find(params[:id])
+  end
+
+  def update
+    @product = Product.find(params[:id])
+    if @product.update(product_params)
+      flash[:notice] = "That product has been updated."
+      redirect_to '/'
+    end
+  end
+
   def destroy
     @product = Product.find(params[:id])
     if @product.destroy
       flash[:notice] = "That product has been deleted."
-      respond_to do |format|
-        format.html { redirect_to '/' }
-        format.js
-      end
+      redirect_to '/'
     end
   end
 
