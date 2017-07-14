@@ -1,12 +1,15 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/nickys/Desktop/went-to-bali-mwahaha/spec/models/user_spec.rb": [
+      "/Users/nickys/Desktop/went-to-bali-mwahaha/spec/models/product_spec.rb": [
         1,
         null,
         1,
         2,
         2,
+        2,
+        null,
+        null,
         null
       ],
       "/Users/nickys/Desktop/went-to-bali-mwahaha/spec/rails_helper.rb": [
@@ -499,6 +502,9 @@
       "/Users/nickys/Desktop/went-to-bali-mwahaha/app/models/product.rb": [
         1,
         1,
+        null,
+        1,
+        1,
         null
       ],
       "/Users/nickys/Desktop/went-to-bali-mwahaha/app/models/user.rb": [
@@ -541,8 +547,16 @@
         1,
         1,
         null
+      ],
+      "/Users/nickys/Desktop/went-to-bali-mwahaha/spec/models/user_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        null
       ]
     },
-    "timestamp": 1500049748
+    "timestamp": 1500051210
   }
 }
