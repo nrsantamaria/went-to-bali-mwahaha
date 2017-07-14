@@ -8,13 +8,15 @@ An app with a list of products that can be added to a shopping cart.
 
 ## Refactor List
 
-1. Ensure that users can't order a negative number of items.
-2. Ensure users must enter a quantity before adding to cart.
-3. Add flash messages for signing up, signing in and signing out.
-4. Add Paperclip for product image upload.
-5. Add product validations.
-6. Fix the row height for products, which can quickly become uneven.
-7. Add admin flash messages for adding, updating and deleting products.
+1. Ensure that users can't order a negative number of items. (Ensure users must enter a quantity before adding to cart.)
+2. Add flash messages for signing up, signing in and signing out.
+3. Add product update and delete functionality for admins.
+4. Add admin flash messages for adding, updating and deleting products.
+5. Add Paperclip for product image upload.
+6. Allow other than whole dollar amounts for admin product creation (for instance, 3.99).
+7. Add product validations.
+8. Add admin links to navbar so admins can easily add products. (Update and delete links are included in the show path for individual products.)
+9. Fix the row height for products, which can quickly become uneven.
 
 ## Technologies used / Prerequisites
 
