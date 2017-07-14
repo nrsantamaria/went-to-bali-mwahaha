@@ -6,10 +6,12 @@ class UsersController < ApplicationController
   def create
     user = User.new(user_params)
     if user.save
+      flash[:notice] = "You successfully signed up!"
       session[:user_id] = user.id
       redirect_to '/'
     else
-      redirect_to '/signup'
+      flash[:alert] = "There was a problem signing up."
+      redirect_to '/sign_up'
     end
   end
 
