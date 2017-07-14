@@ -579,6 +579,13 @@
         1,
         null
       ],
+      "/Users/nickys/Desktop/went-to-bali-mwahaha/spec/models/order_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        null
+      ],
       "/Users/nickys/Desktop/went-to-bali-mwahaha/spec/models/product_spec.rb": [
         1,
         null,
@@ -599,6 +606,6 @@
         null
       ]
     },
-    "timestamp": 1500072215
+    "timestamp": 1500072307
   }
 }
