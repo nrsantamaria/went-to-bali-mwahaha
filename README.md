@@ -49,12 +49,11 @@ Run `rails s` for a dev server. Navigate to `http://localhost:3000/`. The app wi
 
 | Behavior |  Input   |  Output  |
 |----------|:--------:|:--------:|
-|Admin user adds a image to database.|Name => 'Picture', Cost => '50', Description => 'Fancy picture.', Portfolio => 'Landscape'| Name: Picture, Cost: $50, Description: Fancy Picture, Portfolio: Landscape
-|One-to-many database relationship. |User adds a review to a image.|Review is listed under a specific image.|
-|Admin user updates image|Name: Picture, Edit Product Name => 'Pretty Picture'|Name: Pretty Picture|
-|Admin user deletes image| Name: Picture, Delete Image|User is taken to profile|
-|User can select different portfolio types to have specific images displayed on the landing page.|Portfolio: Landscape |Name: Picture, Portfolio: Landscape|
-|Validates all fields are filled out.|Validate: name, cost, description, file|If description blank => Error: Must fill out description|
+|Admin user adds a product to database.|Name => 'Beer', Cost => '5.50', Description => 'Fancy beer.', Image => 'beer.jpeg'| Name: Beer, Cost: $5.50, Description: Fancy beer., Image: beer.jpeg
+|Admin user updates product. |Name: Beer, Edit Product Name => 'Fancy Beer'|Name: Fancy Beer|
+|Admin user deletes product| Name: Beer, Delete Beer|User is taken to products path. |
+|User can add product to cart.|Quantity: '1', Add to Cart|Cart: Beer Name, Quantity: 1|
+|User can remove product from cart.|Cart: Beer Name, Quantity: 1 => Delete|Your shopping cart is empty.|
 
 ## Known Bugs
 * N/A
@@ -69,4 +68,3 @@ Copyright (c) 2017 Nicky Santamaria
 
 ![Home page](app/assets/images/home.png)
 ![Cart](app/assets/images/cart.png)
-![Admin](app/assets/images/admin.png)
