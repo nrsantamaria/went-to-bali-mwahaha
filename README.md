@@ -65,6 +65,9 @@ Run `rails s` for a dev server. Navigate to `http://localhost:3000/`. The app wi
 ```
 Copyright (c) 2017 Nicky Santamaria
 ```
-
+## Home Page
 ![Home page](app/assets/images/home.png)
+## Cart
 ![Cart](app/assets/images/cart.png)
+## AJAX
+![AJAX](http://g.recordit.co/HHgmMej26E.gif)
